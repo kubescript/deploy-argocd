@@ -430,6 +430,12 @@ argocd proj role add-policy my-project deployer -a update -o '*' -p allow
 6. **Namespace Management**: Use `auto-create-namespace: true` for new applications
 7. **Token Security**: Store ArgoCD tokens in GitHub Secrets, rotate regularly
 
+## Acknowledgments
+
+This action uses the official ArgoCD CLI from the [Argo CD project](https://github.com/argoproj/argo-cd).
+
+Thank you to all the maintainers and contributors of the Argo CD project!
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
